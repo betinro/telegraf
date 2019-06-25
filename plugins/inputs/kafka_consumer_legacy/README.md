@@ -10,7 +10,7 @@ from the same topic in parallel.
 
 ```toml
 # Read metrics from Kafka topic(s)
-[[inputs.kafka_consumer]]
+[[inputs.kafka_consumer_legacy]]
   ## topic(s) to consume
   topics = ["telegraf"]
   ## an array of Zookeeper connection strings
